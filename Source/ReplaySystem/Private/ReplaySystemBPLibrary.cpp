@@ -11,6 +11,7 @@
 #include "Engine/Engine.h"
 #include "ReplayPlayerController.h"
 #include "Containers/UnrealString.h"
+#include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "GameFramework/Pawn.h"

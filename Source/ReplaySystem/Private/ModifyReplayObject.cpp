@@ -3,6 +3,7 @@
 
 #include "ModifyReplayObject.h"
 #include "NetworkReplayStreaming.h"
+#include "Components/CapsuleComponent.h"
 
 
 void UModifyReplayObject::RenameReplay(const FString& ReplayName, const FString& NewName, const int32 UserIndex,bool bIsNormalName)
@@ -16,7 +17,6 @@ void UModifyReplayObject::RenameReplay(const FString& ReplayName, const FString&
 		if (bIsNormalName)
 		{
 			EnumerateStreamsPtr.Get()->RenameReplay(ReplayName,NewName,UserIndex, OnRenameReplayCompleteDel);
-
 		}
 		else
 		{
