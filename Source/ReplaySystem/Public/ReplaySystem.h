@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// Copyright 2020-Present Oyintare Ebelo. All Rights Reserved.
 
 #pragma once
 
@@ -16,3 +16,4 @@ public:
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 };
+
