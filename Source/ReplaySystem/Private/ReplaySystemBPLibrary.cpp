@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// Copyright 2020-Present Oyintare Ebelo. All Rights Reserved.
 
 #include "ReplaySystemBPLibrary.h"
 
@@ -668,3 +668,4 @@ FString UReplaySystemBPLibrary::BytesToString(TArray<uint8> Data)
 	Ar << Result;
 	return Result;
 }
+
