@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// Copyright 2020-Present Oyintare Ebelo. All Rights Reserved.
 
 #pragma once
 
@@ -433,3 +433,4 @@ public:
 		P_NATIVE_END;
 	}
 };
+
