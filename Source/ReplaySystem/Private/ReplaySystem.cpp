@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// Copyright 2020-Present Oyintare Ebelo. All Rights Reserved.
 
 #include "ReplaySystem.h"
 
@@ -21,4 +21,5 @@ void FReplaySystemModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 	
+
 IMPLEMENT_MODULE(FReplaySystemModule, ReplaySystem)
